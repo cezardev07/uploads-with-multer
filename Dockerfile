@@ -7,7 +7,7 @@ COPY yarn.lock .
 COPY tsconfig.json .
 COPY prisma .
 
-RUN yarn
+RUN npm install
 
 COPY . .
 
@@ -15,4 +15,4 @@ EXPOSE 3333
 
 RUN npx prisma generate
 
-CMD ["yarn", "dev"]
+CMD ["npm", "run", "dev"]
