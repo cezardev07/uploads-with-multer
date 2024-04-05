@@ -26,7 +26,7 @@ docker exec -it <id-api-container> sh
 5. Execute as migrações do Prisma para configuração do banco de dados:
 
 ```bash
-yarn deploy
+npm run deploy
 ```
 
 6. Saia do contêiner:
@@ -99,8 +99,8 @@ model Post{
 
 ## Scripts
 
-1. `yarn dev` : Inicia o servidor de desenvolvimento com o modo de observação do TypeScript.
+1. `npm run dev` : Inicia o servidor de desenvolvimento com o modo de observação do TypeScript.
 
-2. `yarn deploy` : Implanta migrações do Prisma.
+2. `npm run deploy` : Implanta migrações do Prisma.
 
 **Projeto voltado exclusivamente para fins educacionais e de aprendizado.** 🐋 
