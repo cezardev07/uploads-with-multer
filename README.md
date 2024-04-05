@@ -45,7 +45,7 @@ exit
 
 ## Esquema do Prisma
 
-```ts
+```prisma
 generator client {
   provider = "prisma-client-js"
 }
